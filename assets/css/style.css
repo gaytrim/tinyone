@@ -1,0 +1,155 @@
+
+/****************header section css ************************/
+
+.header{
+	background-color: #fcdb00;
+	padding: 55px 0 100px;
+}
+
+.logo{
+	display: inline-block;
+}
+
+
+.navbar ul{
+	display: inline-block;
+}
+
+.navbar ul li{
+	display: inline-block;
+	margin-left: 18px;
+}
+.navbar li a{
+	padding: 0px 18px;
+	color: #010101;
+	font-weight: bold;
+	font-size: 22px;
+	text-transform: capitalize;
+	display: inline-block;
+	height: 47px;
+	line-height: 47px;
+}
+
+.brandLinks li{
+	display: inline-block;
+	margin-right: 40px;
+	
+}
+
+.brandLinks li a i{
+	font-size: 40px;
+	display: inline-block;
+	transition: all .5s ease-in-out;
+	color: #010101;
+	box-shadow: 2px 2px 20px;
+	
+}
+
+.brandLinks li a i:hover{
+	transform: scale(1.5) rotate(390deg);
+}
+
+
+
+/************************inspiration  section************************/
+
+.inspiration{
+	padding: 120px 0 160px;
+	
+} 
+
+.thumbnail{
+	margin-bottom: 85px;
+}
+
+.icon{
+	font-size: 40px;
+	color: #010101;
+}
+
+.thumbHeading{
+	font-size: 22px;
+	color: #010101;
+	margin-bottom: 15px;
+	text-transform: capitalize;
+}
+
+.thumbpara{
+	color: #898989;
+}
+
+/********************** footer section css **********************/
+
+.footer{
+	background-color: #000000;
+	color: #ffffff;
+	padding: 95px 0 135px;
+}
+
+.footer .pri-heading{
+	color: #fcdb00;
+	
+}
+
+.footer .sec-heading{
+	color: #898989;
+	margin-bottom: 45px;
+}
+
+.email, .submitBtn{
+	height: 50px;
+	outline: none;
+	border-radius: 5px;
+}
+
+
+.email{
+	width: calc(100% - 160px);
+	padding: 0 25px;
+	border: 0px;
+}
+.submitBtn{
+	cursor: pointer;
+	width: 125px;
+	margin-left: 20px;
+	background-color: #fcdb00;
+	color: #010101;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	border: 2px solid #fcdb00;
+	transition: color .4s ease-in-out;
+	
+	
+}
+
+.submitBtn:hover,
+.submitBtn:focus,
+.submitBtn:active{
+	color: #fcdb00;
+	background-color: #010101;
+	
+}
+
+.brandLink li{
+	display: inline-block;
+	margin-right: 40px;
+	
+}
+
+.brandLink li a{
+	font-size: 40px;
+	display: inline-block;
+	transition: all .5s ease-in-out;
+	color: #fcdb00;
+	box-shadow: 2px 2px 20px;
+	
+}
+
+.brandLink li a:hover{
+	transform: scale(1.5) rotate(390deg);
+}
+
+.footerLink a{
+	color: #fff;
+}
